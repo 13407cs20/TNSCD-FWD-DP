@@ -1,0 +1,123 @@
+/* Reset */
+
+body, h1, h2, h3, p, ul {
+
+  margin: 0;
+
+  padding: 0;
+
+}
+
+body {
+
+  font-family: Arial, sans-serif;
+
+  display: flex;
+
+  background: #f7f9fc;
+
+  color: #333;
+
+}
+
+/* Layout */
+
+.main-container {
+
+  display: flex;
+
+  width: 100%;
+
+}
+
+/* Sidebar */
+
+.sidebar {
+
+  width: 25%;
+
+  background: #000; /* Black sidebar */
+
+  color: white;
+
+  text-align: center;
+
+  padding: 30px 20px;
+
+  min-height: 100vh;
+
+  position: fixed;
+
+}
+
+.sidebar h2 {
+
+  margin-bottom: 5px;
+
+  color: #ff0000; /* Red name */
+
+}
+
+.sidebar p {
+
+  font-size: 14px;
+
+  margin-bottom: 20px;
+
+  color: #bbb;
+
+}
+
+.sidebar ul {
+
+  list-style: none;
+
+}
+
+.sidebar ul li {
+
+  margin: 15px 0;
+
+}
+
+.sidebar ul li a {
+
+  text-decoration: none;
+
+  color: white;
+
+  font-weight: bold;
+
+  transition: color 0.3s;
+
+}
+
+.sidebar ul li a:hover {
+
+  color: #ff0000; /* Red hover */
+
+}
+
+/* Content */
+
+.content {
+
+  margin-left: 25%;
+
+  padding: 30px;
+
+  width: 75%;
+
+}
+
+section {
+
+  margin-bottom: 50px;
+
+}
+
+h1 {
+
+  margin-bottom: 15px;
+
+  border-bottom: 2px
